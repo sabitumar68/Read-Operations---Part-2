@@ -1,0 +1,16 @@
+file = open('Coding.txt', 'r')
+print("Readind first line...")
+print(file.readline())
+file.close()
+
+file = open('Coding.txt', 'r')
+print("Reading multiple lines...")
+print(file.readline())
+print(file.readline())
+print(file.readline())
+file.close()
+file = open('Coding.txt', 'r')
+print("Looping through the lines...")
+for line in file:
+  print(line)
+file.close()  
